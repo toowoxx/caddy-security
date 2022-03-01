@@ -10,4 +10,4 @@ require (
 	go.uber.org/zap v1.20.0
 )
 
-replace github.com/greenpau/go-authcrunch@v1.0.17 => github.com/simaotwx/caddy-security@v1.0.17-beta+patch-optional-claim
+replace github.com/greenpau/go-authcrunch@v1.0.17 => github.com/simaotwx/caddy-authcrunch@v1.0.17-beta+patch-optional-claim

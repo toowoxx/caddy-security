@@ -1,5 +1,6 @@
 vendor/**
 bin/**
+tmp/**
 .coverage/**
 assets/config/users.json
 .doc/**

@@ -9,3 +9,5 @@ require (
 	github.com/satori/go.uuid v1.2.0
 	go.uber.org/zap v1.20.0
 )
+
+replace github.com/greenpau/go-authcrunch v1.0.19 => github.com/toowoxx/go-authcrunch v1.0.19

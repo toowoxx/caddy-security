@@ -20,6 +20,9 @@ jobs:
     env:
       GOBIN: /home/runner/.local/bin
     steps:
+    - name: Install prerequisites
+      run: |
+        sudo apt-get -y install libnss3-tools
     - name: Install Go
       uses: actions/setup-go@v1
       with:
